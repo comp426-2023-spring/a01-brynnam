@@ -3,7 +3,7 @@ const http = require('http');
 // Require fs module
 const fs = require('fs');
 // Require minimist module (make sure you install this one via npm).
-const port = require('minimist')(argv) || 3000;
+const port = require('minimist')(process.argv) || 3000;
 
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
 
