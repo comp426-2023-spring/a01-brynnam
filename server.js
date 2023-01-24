@@ -19,6 +19,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
         console.error(err);
         return;
     }
+    console.log(data);
 });
 
 // If there is an error, put it on the console error and return. 
